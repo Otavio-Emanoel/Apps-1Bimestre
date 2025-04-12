@@ -1,0 +1,5 @@
+Nome: Marcelo
+Idade: 24
+Peso: 200
+Altura: 1,6
+Gênero: Feminino

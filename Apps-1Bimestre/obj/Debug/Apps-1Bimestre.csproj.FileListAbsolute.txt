@@ -8,3 +8,13 @@ C:\Users\Aluno\source\repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimest
 C:\Users\Aluno\source\repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\source\repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.exe
 C:\Users\Aluno\source\repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.pdb
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\bin\Debug\Apps-1Bimestre.exe.config
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\bin\Debug\Apps-1Bimestre.exe
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\bin\Debug\Apps-1Bimestre.pdb
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.csproj.AssemblyReference.cache
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps_1Bimestre.AllForms.resources
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps_1Bimestre.Properties.Resources.resources
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.csproj.GenerateResource.cache
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.csproj.CoreCompileInputs.cache
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.exe
+C:\Users\otavi\Source\Repos\Apps-1Bimestre\Apps-1Bimestre\obj\Debug\Apps-1Bimestre.pdb

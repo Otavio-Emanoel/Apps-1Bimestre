@@ -66,6 +66,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Apps\App1\WinFormsPesoIdeal.deps.json" />
+    <None Include="Apps\App1\WinFormsPesoIdeal.runtimeconfig.json" />
+    <None Include="Apps\App2\App2CalcularMediaAluno.exe.config" />
+    <None Include="Apps\App3\App3-EPI-Funcionario.exe.config" />
+    <None Include="Apps\App4\App4-Habilitacao.exe.config" />
+    <None Include="Apps\App5\App5-Triangulos.exe.config" />
+    <None Include="Apps\App6\App6_Sistema_Vendas.exe.config" />
+    <None Include="Apps\App7\App7-Advinhacoes.deps.json" />
+    <None Include="Apps\App7\App7-Advinhacoes.runtimeconfig.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,7 +89,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WinFormsPesoIdeal.sln" />
+    <Content Include="Apps\App1\dados.txt" />
+    <Content Include="Apps\App1\WinFormsPesoIdeal.dll" />
+    <Content Include="Apps\App1\WinFormsPesoIdeal.exe" />
+    <Content Include="Apps\App1\WinFormsPesoIdeal.pdb" />
+    <Content Include="Apps\App2\App2CalcularMediaAluno.exe" />
+    <Content Include="Apps\App2\App2CalcularMediaAluno.pdb" />
+    <Content Include="Apps\App3\App3-EPI-Funcionario.exe" />
+    <Content Include="Apps\App3\App3-EPI-Funcionario.pdb" />
+    <Content Include="Apps\App4\App4-Habilitacao.exe" />
+    <Content Include="Apps\App4\App4-Habilitacao.pdb" />
+    <Content Include="Apps\App5\App5-Triangulos.exe" />
+    <Content Include="Apps\App5\App5-Triangulos.pdb" />
+    <Content Include="Apps\App6\App6_Sistema_Vendas.exe" />
+    <Content Include="Apps\App6\App6_Sistema_Vendas.pdb" />
+    <Content Include="Apps\App7\App7-Advinhacoes.dll" />
+    <Content Include="Apps\App7\App7-Advinhacoes.exe" />
+    <Content Include="Apps\App7\App7-Advinhacoes.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
