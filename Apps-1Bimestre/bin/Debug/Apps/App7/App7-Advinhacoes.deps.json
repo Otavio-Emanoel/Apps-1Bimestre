@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "App7-Advinhacoes/1.0.0": {
+        "runtime": {
+          "App7-Advinhacoes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App7-Advinhacoes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

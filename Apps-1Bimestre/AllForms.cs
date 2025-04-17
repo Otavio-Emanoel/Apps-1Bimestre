@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,13 +34,15 @@ namespace Apps_1Bimestre
             }
         }
 
+
         private void app1Btn_Click(object sender, EventArgs e)
         {
             try
             {
                 if (System.Diagnostics.Process.GetProcessesByName("WinFormsPesoIdeal").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App1\\WinFormsPesoIdeal.exe");
+                    string path = System.IO.Path.Combine(Application.StartupPath, "Apps", "App1", "WinFormsPesoIdeal.exe");
+                    System.Diagnostics.Process.Start(path);
                 }
 
                 if (System.Diagnostics.Process.GetProcessesByName("WinFormsPesoIdeal").Length != 0)
@@ -66,7 +69,8 @@ namespace Apps_1Bimestre
             {
                 if (System.Diagnostics.Process.GetProcessesByName("App2CalcularMediaAluno").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App2\\App2CalcularMediaAluno.exe");
+                    string path = Path.Combine(Application.StartupPath, "Apps", "App2", "App2CalcularMediaAluno.exe");
+                    System.Diagnostics.Process.Start(path);
                 }
                 if (System.Diagnostics.Process.GetProcessesByName("App2CalcularMediaAluno").Length != 0)
                 {
@@ -97,7 +101,8 @@ namespace Apps_1Bimestre
             {
                 if (System.Diagnostics.Process.GetProcessesByName("App3-EPI-Funcionario").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App3\\App3-EPI-Funcionario.exe");
+                    string path = Path.Combine(Application.StartupPath, "Apps", "App3", "App3-EPI-Funcionario.exe");
+                    System.Diagnostics.Process.Start(path);
                 }
                 if (System.Diagnostics.Process.GetProcessesByName("App3-EPI-Funcionario").Length != 0)
                 {
@@ -123,7 +128,9 @@ namespace Apps_1Bimestre
             {
                 if (System.Diagnostics.Process.GetProcessesByName("App4-Habilitacao").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App4\\App4-Habilitacao.exe");
+                    string path = Path.Combine(Application.StartupPath, "Apps", "App4", "App4-Habilitacao.exe");
+                    System.Diagnostics.Process.Start(path);
+
                 }
                 if (System.Diagnostics.Process.GetProcessesByName("App4-Habilitacao").Length != 0)
                 {
@@ -149,7 +156,8 @@ namespace Apps_1Bimestre
             {
                 if (System.Diagnostics.Process.GetProcessesByName("App5-Triangulos").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App5\\App5-Triangulos.exe");
+                    string path = Path.Combine(Application.StartupPath, "Apps", "App5", "App5-Triangulos.exe");
+                    System.Diagnostics.Process.Start(path);
                 }
                 if (System.Diagnostics.Process.GetProcessesByName("App5-Triangulos").Length != 0)
                 {
@@ -175,7 +183,8 @@ namespace Apps_1Bimestre
             {
                 if (System.Diagnostics.Process.GetProcessesByName("App6_Sistema_Vendas").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App6\\App6_Sistema_Vendas.exe");
+                    string path = Path.Combine(Application.StartupPath, "Apps", "App6", "App6_Sistema_Vendas.exe");
+                    System.Diagnostics.Process.Start(path);
                 }
                 if (System.Diagnostics.Process.GetProcessesByName("App6_Sistema_Vendas").Length != 0)
                 {
@@ -201,7 +210,8 @@ namespace Apps_1Bimestre
             {
                 if (System.Diagnostics.Process.GetProcessesByName("App7-Advinhacoes").Length == 0)
                 {
-                    System.Diagnostics.Process.Start("C:\\Users\\otavi\\Source\\Repos\\Apps-1Bimestre\\Apps-1Bimestre\\Apps\\App7\\App7-Advinhacoes.exe");
+                    string path = Path.Combine(Application.StartupPath, "Apps", "App7", "App7-Advinhacoes.exe");
+                    System.Diagnostics.Process.Start(path);
                 }
                 if (System.Diagnostics.Process.GetProcessesByName("App7-Advinhacoes").Length != 0)
                 {
